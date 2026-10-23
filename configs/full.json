@@ -1,0 +1,25 @@
+{
+  "seed": 7,
+  "n_grid": 128,
+  "n_train": 1000,
+  "n_val": 200,
+  "n_test": 200,
+  "smooth_modes": 12,
+  "log_coefficient_scale": 0.8,
+  "batch_size": 32,
+  "epochs": 200,
+  "learning_rate": 0.001,
+  "weight_decay": 0.000001,
+  "deeponet": {
+    "hidden_channels": 128,
+    "latent_channels": 128,
+    "depth": 4
+  },
+  "fno": {
+    "hidden_channels": 64,
+    "n_modes": 16,
+    "n_layers": 4,
+    "padding": 12
+  },
+  "output_dir": "artifacts/full"
+}

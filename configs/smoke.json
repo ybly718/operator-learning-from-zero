@@ -1,0 +1,25 @@
+{
+  "seed": 7,
+  "n_grid": 64,
+  "n_train": 128,
+  "n_val": 32,
+  "n_test": 32,
+  "smooth_modes": 8,
+  "log_coefficient_scale": 0.7,
+  "batch_size": 32,
+  "epochs": 3,
+  "learning_rate": 0.001,
+  "weight_decay": 0.000001,
+  "deeponet": {
+    "hidden_channels": 64,
+    "latent_channels": 64,
+    "depth": 3
+  },
+  "fno": {
+    "hidden_channels": 32,
+    "n_modes": 12,
+    "n_layers": 3,
+    "padding": 8
+  },
+  "output_dir": "artifacts/smoke"
+}
